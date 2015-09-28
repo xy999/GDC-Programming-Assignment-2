@@ -1,7 +1,7 @@
 ---
 GETTING AND CLEANING DATA COURSE PROJECT
 
-Codebook Description
+Codebook Description (adapted from course material)
 
 The data included here resulted from experiments involving a group of 30 volunteers with ages between 19 and 48 years old. Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) wearing a Samsung Galaxy S II smartphone on his or her waist. Using its embedded accelerometer and gyroscope, researchers captured triaxial linear acceleration and triaxial angular velocity at a constant rate of 50Hz. The resulting dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% for the test data. 
 
