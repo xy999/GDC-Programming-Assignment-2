@@ -1,0 +1,106 @@
+---
+GETTING AND CLEANING DATA COURSE PROJECT
+
+Codebook Description
+
+The data included here resulted from experiments involving a group of 30 volunteers with ages between 19 and 48 years old. Each person performed six activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying) wearing a Samsung Galaxy S II smartphone on his or her waist. Using its embedded accelerometer and gyroscope, researchers captured triaxial linear acceleration and triaxial angular velocity at a constant rate of 50Hz. The resulting dataset was randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% for the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows to generate the data included in this project. 
+
+The variables 1-3 are identifiers to illustrate which group each record belongs to:
+
+ [1] "Group" - Indicates whether subject was in test or training group
+ [2] "Subj.ID" - unique numerical identifier for each test subject      
+ [3] "Activity" - one of six activities
+
+The variables 4-89 capture the following performance data:
+- Mean and standard deviation of Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Mean and standard deviation of Triaxial Angular velocity from the gyroscope. 
+- These variables are classified according to whether the acceleration/angular velocity is attributable to gravity or the body, and whether the measurements occur along the X, Y, or Z axis
+
+ [4] "timeBodyAcc.mean...X"               
+ [5] "timeBodyAcc.mean...Y"               
+ [6] "timeBodyAcc.mean...Z"               
+ [7] "timeBodyAcc.std...X"                
+ [8] "timeBodyAcc.std...Y"                
+ [9] "timeBodyAcc.std...Z"                
+[10] "timeGravityAcc.mean...X"            
+[11] "timeGravityAcc.mean...Y"            
+[12] "timeGravityAcc.mean...Z"            
+[13] "timeGravityAcc.std...X"             
+[14] "timeGravityAcc.std...Y"             
+[15] "timeGravityAcc.std...Z"             
+[16] "timeBodyAccJerk.mean...X"           
+[17] "timeBodyAccJerk.mean...Y"           
+[18] "timeBodyAccJerk.mean...Z"           
+[19] "timeBodyAccJerk.std...X"            
+[20] "timeBodyAccJerk.std...Y"            
+[21] "timeBodyAccJerk.std...Z"            
+[22] "timeBodyGyro.mean...X"              
+[23] "timeBodyGyro.mean...Y"              
+[24] "timeBodyGyro.mean...Z"              
+[25] "timeBodyGyro.std...X"               
+[26] "timeBodyGyro.std...Y"               
+[27] "timeBodyGyro.std...Z"               
+[28] "timeBodyGyroJerk.mean...X"          
+[29] "timeBodyGyroJerk.mean...Y"          
+[30] "timeBodyGyroJerk.mean...Z"          
+[31] "timeBodyGyroJerk.std...X"           
+[32] "timeBodyGyroJerk.std...Y"           
+[33] "timeBodyGyroJerk.std...Z"           
+[34] "timeBodyAccMagnitude.mean"          
+[35] "timeBodyAccMagnitude.std"           
+[36] "timeGravityAccMagnitude.mean"       
+[37] "timeGravityAccMagnitude.std"        
+[38] "timeBodyAccJerkMagnitude.mean"      
+[39] "timeBodyAccJerkMagnitude.std"       
+[40] "timeBodyGyroMagnitude.mean"         
+[41] "timeBodyGyroMagnitude.std"          
+[42] "timeBodyGyroJerkMagnitude.mean"     
+[43] "timeBodyGyroJerkMagnitude.std"      
+[44] "freqBodyAcc.mean...X"               
+[45] "freqBodyAcc.mean...Y"               
+[46] "freqBodyAcc.mean...Z"               
+[47] "freqBodyAcc.std...X"                
+[48] "freqBodyAcc.std...Y"                
+[49] "freqBodyAcc.std...Z"                
+[50] "freqBodyAcc.meanFreq...X"           
+[51] "freqBodyAcc.meanFreq...Y"           
+[52] "freqBodyAcc.meanFreq...Z"           
+[53] "freqBodyAccJerk.mean...X"           
+[54] "freqBodyAccJerk.mean...Y"           
+[55] "freqBodyAccJerk.mean...Z"           
+[56] "freqBodyAccJerk.std...X"            
+[57] "freqBodyAccJerk.std...Y"            
+[58] "freqBodyAccJerk.std...Z"            
+[59] "freqBodyAccJerk.meanFreq...X"       
+[60] "freqBodyAccJerk.meanFreq...Y"       
+[61] "freqBodyAccJerk.meanFreq...Z"       
+[62] "freqBodyGyro.mean...X"              
+[63] "freqBodyGyro.mean...Y"              
+[64] "freqBodyGyro.mean...Z"              
+[65] "freqBodyGyro.std...X"               
+[66] "freqBodyGyro.std...Y"               
+[67] "freqBodyGyro.std...Z"               
+[68] "freqBodyGyro.meanFreq...X"          
+[69] "freqBodyGyro.meanFreq...Y"          
+[70] "freqBodyGyro.meanFreq...Z"          
+[71] "freqBodyAccMagnitude.mean"          
+[72] "freqBodyAccMagnitude.std"           
+[73] "freqBodyAccMagnitude.meanFreq"      
+[74] "freqBodyAccJerkMagnitude.mean"      
+[75] "freqBodyAccJerkMagnitude.std"       
+[76] "freqBodyAccJerkMagnitude.meanFreq"  
+[77] "freqBodyGyroMagnitude.mean"         
+[78] "freqBodyGyroMagnitude.std"          
+[79] "freqBodyGyroMagnitude.meanFreq"     
+[80] "freqBodyGyroJerkMagnitude.mean"     
+[81] "freqBodyGyroJerkMagnitude.std"      
+[82] "freqBodyGyroJerkMagnitude.meanFreq" 
+[83] "angle.tBodyAccMean.Gravity"         
+[84] "angle.tBodyAccJerkMean..GravityMean"
+[85] "angle.tBodyGyroMean.GravityMean"    
+[86] "angle.tBodyGyroJerkMean.GravityMean"
+[87] "angle.X.GravityMean"                
+[88] "angle.Y.GravityMean"                
+[89] "angle.Z.GravityMean" 
